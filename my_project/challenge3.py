@@ -16,9 +16,8 @@ def solve(s):
     if current_consonant_value > 0:
         consonant_values.append(current_consonant_value)
 
-    # Return the highest value among consonant substrings
+    
     return max(consonant_values, default=0)
 
-# Examples
 print(solve("zodiacs"))   # Output: 26
 print(solve("strength"))  # Output: 57
